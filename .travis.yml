@@ -24,6 +24,8 @@ matrix:
       access_key_id: "AKIAJW66HNZFZ6F5GNAQ"
       secret_access_key: "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"
       bucket: "xqdd"
+      file: "build/*/*.zip"	
+      file_glob: true
       skip_cleanup: true
 
   - os: osx
